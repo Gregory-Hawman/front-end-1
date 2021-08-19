@@ -8,8 +8,10 @@ const LandingPage = props => {
         <LandingContainer>
             <div className='landingImageContainer'>
                 <div className='cta'>
-                    <h3>Lorem, ipsum dolor sit Amet</h3>
-                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. In alias quia obcaecati aliquid expedita tempora enim excepturi, unde asperiores consectetur? In, cum assumenda minima tempora vero totam provident perferendis labore.</h5>
+                    <h3>Welcome to ElectricSheep</h3>
+                    <h5>The latest sleep tracker for the digital age.</h5>
+                    <br></br>
+                    <h5>You just keep counting sheep and the app will take care of the rest. Log your sleep at home or on the go and our App will record your data and give back helpful feedback. As we build our rapport with you, you'll be able to see more of what gets the best sleep for you. </h5>
                 </div>
                 <Link to='/signup'><div className='ctaButton'>
                     Sign Up

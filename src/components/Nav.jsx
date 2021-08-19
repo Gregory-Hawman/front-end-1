@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Navigation = props => {
     return (
         <nav className='navC'>
-            <h4 className='logo'><Link className='navLink' to='/'>SleepTracker</Link></h4>
+            <h4 className='logo'><Link className='navLink' to='/'>ElectricSheep</Link></h4>
             <div className='links'>
                 <Link className='navLink' to='/home'>Dashboard</Link>
                 {props.hasToken ?

@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 const LandingContainer = styled.div`
     width: 100%;
-    padding: 0 5%;
+    padding: 0 0%;
     
     .landingImageContainer {
         width: 100%;
@@ -13,11 +13,12 @@ const LandingContainer = styled.div`
             width: 100%;
             height: 100%;            
         }
+        
         .cta {
             position: absolute; 
             background-color: rgba(26, 26, 26, 0.573);       
-            width: 40%;
-            padding: 5%;
+            width: 45%;
+            padding: 4%;
             text-align: center;
             color: white;
             top: 25%;
@@ -25,6 +26,7 @@ const LandingContainer = styled.div`
             backdrop-filter: blur(4px);
             
         }
+
         .ctaButton {
             position: absolute;
             background-color: #1bf895;
@@ -46,12 +48,14 @@ const LandingContainer = styled.div`
             }
         }   
     }
+
     .ftBlock {
             background-color: black;
             color: white;
             font-family: 'Raleway';
             padding: 1% 3%; 
         }
+
     #features {
         display: flex;
         justify-content: space-between;
@@ -66,13 +70,13 @@ const LandingContainer = styled.div`
             border-radius: 15px;
             padding: 5%;
             
-
             h4 {
                 border-bottom: 1px solid grey;
                 font-weight: bold;
                 padding-bottom: 2%;
                 color: #644ec6;
             }
+
             h6 {
                 padding-top: 6%;
                 color: #ededed;
@@ -81,6 +85,7 @@ const LandingContainer = styled.div`
             }    
         }
     }
+
     #testimonials {
         display: flex;
         justify-content: space-between;
@@ -101,6 +106,7 @@ const LandingContainer = styled.div`
                     border-radius: 100%;
                 }   
             }
+
             .tInfo{
                 width: 70%;
                 margin-left: 3%;
@@ -119,8 +125,8 @@ const LandingContainer = styled.div`
                 }
             }
         }
-
     }
+
     .ctaFooter {
         width: 100%;
         background-color: rgb(104, 43, 128);
@@ -130,8 +136,6 @@ const LandingContainer = styled.div`
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-bottom: 3%;
-        
         
         h2 {
             color: white;
